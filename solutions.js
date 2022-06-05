@@ -20,3 +20,43 @@
  * and
  * concat
  */
+
+function isTrue (truthEval) {
+	return truthEval === true;
+}
+
+function isFalse (falseEval) {
+	return falseEval === false;
+}
+
+function not (parameterToBeReversed) {
+	return !parameterToBeReversed;
+}
+
+function addOne (number) {
+	return parseFloat(number) + 1;
+}
+
+function isEven (number) {
+	return parseFloat(number) % 2 === 0;
+}
+
+function isIdentical (firstInput, secondInput) {
+	return firstInput === secondInput;
+}
+
+function isEqual (firstInput, secondInput) {
+	return firstInput == secondInput;
+}
+
+function or (firstInput, secondInput) {
+	return firstInput || secondInput;
+}
+
+function and (firstInput, secondInput) {
+	return firstInput && secondInput;
+}
+
+function concat (firstInput, secondInput) {
+	return firstInput.toString() + secondInput.toString();
+}
